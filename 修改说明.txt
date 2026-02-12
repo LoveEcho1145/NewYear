@@ -1,0 +1,32 @@
+要修改倒计时目标日期为2027年新年，你需要修改 `src/App.tsx` 文件中的以下内容：
+需要修改的地方：
+
+  1. 目标日期 (第 12 行)
+   // 当前代码
+   const targetDate = new Date('2026-02-17T00:00:00');
+
+   // 改为 2027 年春节（正月初一）
+   const targetDate = new Date('2027-02-06T00:00:00');
+
+  2. 显示的年份 (第 61 行)
+   // 当前代码
+   <span className="text-lg md:text-xl">2026年春节</span>
+
+   // 改为
+   <span className="text-lg md:text-xl">2027年春节</span>
+
+  3. 目标日期说明 (第 79 行)
+   // 当前代码
+   <span className="text-sm md:text-base">目标日期：2026年2月17日（正月初一）</span>
+
+   // 改为
+   <span className="text-sm md:text-base">目标日期：2027年2月6日（正月初一）</span>
+
+要修改倒计时目标日期为2027年新年，你需要修改 `src\components\BlessingCard.tsx` 文件中的以下内容
+const blessings: Blessing[] = [
+  { id: 1, text: '马到成功', meaning: '事业顺利，一举成功' },
+  { id: 2, text: '龙马精神', meaning: '精力充沛，活力四射' },
+  { id: 3, text: '一马当先', meaning: '勇往直前，领先他人' },
+  { id: 4, text: '万马奔腾', meaning: '气势磅礴，兴旺发达' },
+  { id: 5, text: '策马扬鞭', meaning: '奋发图强，积极进取' },
+  { id: 6, text: '金戈铁马', meaning: '英勇无畏，战无不胜' },

@@ -3,7 +3,6 @@
 本项目已部署，可以通过以下地址在线访问：
 
 [CF Pages部署](https://newyear.010912.top/)
-<a href="https://newyear.010912.top" target="_blank">CF Pages部署</a>
 
 ---
 

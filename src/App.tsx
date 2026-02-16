@@ -48,7 +48,7 @@ function App() {
           <div className="inline-flex items-center gap-2 mb-2 animate-pulse-gold">
             <Sparkles className="w-5 h-5 text-horse-gold" />
             <span className="text-horse-gold/80 text-sm md:text-base tracking-widest">
-              戊申金猴・灵猴贺岁
+              丁未瑞羊・吉羊纳福
             </span>
             <Sparkles className="w-5 h-5 text-horse-gold" />
           </div>
@@ -59,7 +59,7 @@ function App() {
                          headerVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-80'
                        }`}
           >
-            猴年倒计时
+            羊年倒计时
           </h1>
           
           <div 
@@ -86,7 +86,7 @@ function App() {
                 <Star className="w-32 h-32 mx-auto text-horse-gold mb-6" />
               </div>
               <h2 className="text-5xl md:text-7xl font-bold text-gradient-gold mb-4">
-                猴年大吉！
+                羊年大吉！
               </h2>
               <p className="text-xl md:text-2xl text-horse-gold/80">
                 祝您新春快乐，万事如意
@@ -131,7 +131,7 @@ function App() {
                 }`}
               >
                 <h2 className="text-2xl md:text-3xl font-bold text-gradient-gold text-center mb-8">
-                  猴年祝福语
+                  羊年祝福语
                 </h2>
                 <BlessingCards />
               </div>
@@ -147,11 +147,11 @@ function App() {
         >
           <div className="flex items-center justify-center gap-2 text-horse-gold/40 text-sm">
             <Star className="w-4 h-4" />
-            <span>戊申猴年・土运亨通</span>
+            <span>丁未羊年・火运昌隆</span>
             <Star className="w-4 h-4" />
           </div>
           <p className="text-horse-gold/30 text-xs mt-2">
-            天干戊属土・地支申为猴・天运五行属火
+            天干丁属火・地支未为羊・天运五行属木
           </p>
         </footer>
       </div>

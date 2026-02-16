@@ -7,12 +7,12 @@ interface Blessing {
 }
 
 const blessings: Blessing[] = [
-  { id: 1, text: '马到成功', meaning: '事业顺利，一举成功' },
-  { id: 2, text: '龙马精神', meaning: '精力充沛，活力四射' },
-  { id: 3, text: '一马当先', meaning: '勇往直前，领先他人' },
-  { id: 4, text: '万马奔腾', meaning: '气势磅礴，兴旺发达' },
-  { id: 5, text: '策马扬鞭', meaning: '奋发图强，积极进取' },
-  { id: 6, text: '金戈铁马', meaning: '英勇无畏，战无不胜' },
+  { id: 1, text: '金猴献瑞', meaning: '事业顺利，一举成功' },
+  { id: 2, text: '灵猴送福', meaning: '精力充沛，活力四射' },
+  { id: 3, text: '猴运当头', meaning: '勇往直前，领先他人' },
+  { id: 4, text: '申猴启泰', meaning: '气势磅礴，兴旺发达' },
+  { id: 5, text: '猴劲十足', meaning: '奋发图强，积极进取' },
+  { id: 6, text: '金猴闹春', meaning: '英勇无畏，战无不胜' },
 ];
 
 export function BlessingCards() {

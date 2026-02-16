@@ -8,8 +8,8 @@ import { BlessingCards } from './components/BlessingCard';
 import { Sparkles, Calendar, Clock, Star, Zap } from 'lucide-react';
 
 function App() {
-  // 2026年春节日期：2026年2月17日
-  const targetDate = new Date('2026-02-17T00:00:00');
+  // 2027年春节日期：2027年2月06日
+  const targetDate = new Date('2027-02-06T00:00:00');
   const { days, hours, minutes, seconds, isComplete } = useCountdown(targetDate);
   
   const [headerVisible, setHeaderVisible] = useState(false);
@@ -48,7 +48,7 @@ function App() {
           <div className="inline-flex items-center gap-2 mb-2 animate-pulse-gold">
             <Sparkles className="w-5 h-5 text-horse-gold" />
             <span className="text-horse-gold/80 text-sm md:text-base tracking-widest">
-              农历丙午年 · 火马迎春
+              戊申金猴・灵猴贺岁
             </span>
             <Sparkles className="w-5 h-5 text-horse-gold" />
           </div>
@@ -59,7 +59,7 @@ function App() {
                          headerVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-80'
                        }`}
           >
-            马年倒计时
+            猴年倒计时
           </h1>
           
           <div 
@@ -69,7 +69,7 @@ function App() {
                        }`}
           >
             <Zap className="w-5 h-5" />
-            <span className="text-lg md:text-xl">2026年春节</span>
+            <span className="text-lg md:text-xl">2027年春节</span>
             <Zap className="w-5 h-5" />
           </div>
         </header>
@@ -86,7 +86,7 @@ function App() {
                 <Star className="w-32 h-32 mx-auto text-horse-gold mb-6" />
               </div>
               <h2 className="text-5xl md:text-7xl font-bold text-gradient-gold mb-4">
-                马年大吉！
+                猴年大吉！
               </h2>
               <p className="text-xl md:text-2xl text-horse-gold/80">
                 祝您新春快乐，万事如意
@@ -102,7 +102,7 @@ function App() {
                            }`}
               >
                 <Calendar className="w-4 h-4" />
-                <span className="text-sm md:text-base">目标日期：2026年2月17日（正月初一）</span>
+                <span className="text-sm md:text-base">目标日期：2027年2月6日（正月初一）</span>
               </div>
 
               {/* Countdown Display */}
@@ -131,7 +131,7 @@ function App() {
                 }`}
               >
                 <h2 className="text-2xl md:text-3xl font-bold text-gradient-gold text-center mb-8">
-                  马年祝福语
+                  猴年祝福语
                 </h2>
                 <BlessingCards />
               </div>
@@ -147,11 +147,11 @@ function App() {
         >
           <div className="flex items-center justify-center gap-2 text-horse-gold/40 text-sm">
             <Star className="w-4 h-4" />
-            <span>丙午马年 · 火运亨通</span>
+            <span>戊申猴年・土运亨通</span>
             <Star className="w-4 h-4" />
           </div>
           <p className="text-horse-gold/30 text-xs mt-2">
-            天干丙属火 · 地支午为马 · 天运五行属水
+            天干戊属土・地支申为猴・天运五行属火
           </p>
         </footer>
       </div>
